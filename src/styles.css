@@ -123,3 +123,105 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add an amazing animation to the social icons */
+@keyframes socialIcon {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.socialIcon:hover {
+  animation: socialIcon 0.5s;
+}
+
+/* add a nice animation to the icons */
+@keyframes icon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon:hover {
+  animation: icon 0.5s;
+}
+
+/* add a nice animation to the logo */
+@keyframes logo {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo:hover {
+  animation: logo 0.5s;
+}
+
+/* add a nice animation to the button */
+@keyframes button {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:hover {
+  animation: button 0.5s;
+}
+
+/* add a nice animation to the form */
+@keyframes form {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+form:hover {
+  animation: form 0.5s;
+}
+
+/* add a nice animation to the card */
+@keyframes card {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card:hover {
+  animation: card 0.5s;
+}
